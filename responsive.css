@@ -1,0 +1,39 @@
+/* responsive design for small device */
+@media screen and (max-width: 576px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu-bar {
+    display: block;
+    font-size: 24px;
+  }
+  .btn-primary {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  header {
+    padding: 30px 20px 0 20px;
+  }
+  .banner-btn {
+    display: flex;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .banner-content h1 {
+    font-size: 54px;
+    margin-top: 30px;
+  }
+  .tutorial {
+    position: absolute;
+    bottom: 280px;
+    left: 30px;
+  }
+  .workout {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+  }
+}

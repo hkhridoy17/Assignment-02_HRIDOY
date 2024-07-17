@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&display=swap");
+
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Inter;
+  color: white;
+}
+header,
+main,
+footer {
+  background-color: black;
+}
+.orange {
+  color: #e6533c;
+}
+.grey-bg {
+  color: #222222;
+}
+.white50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.white60 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.grey65 {
+  color: rgba(239, 237, 232, 0.65);
+}
+.btn-primary {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e6533c;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* nav styles */
+header {
+  padding: 50px 100px 0 100px;
+  background: linear-gradient(
+    rgba(17, 17, 17, 95),
+    rgba(17, 17, 17, 0.9),
+    rgba(17, 17, 17, 0.95),
+    rgba(17, 17, 17, 1)
+  );
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title h2 {
+  font-size: 36px;
+  font-weight: 800;
+  font-style: italic;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 6px 0;
+  border: 1px solid dimgrey;
+  border-radius: 20px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+ul li a:hover {
+  background-color: #e6533c;
+}
+.nav-menu-bar {
+  display: none;
+  cursor: pointer;
+}
+
+/* banner styles */
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.banner-content h1 {
+  font-size: 78px;
+}
+.banner-content h1 span {
+  font-family: Italianno;
+}
+.banner-content p {
+  line-height: 26px;
+}
+.d-app {
+  background-color: transparent;
+  border: 1px solid darkgrey;
+  margin-left: 10px;
+}
+.banner-image img {
+  width: 100%;
+}
+.banner-image {
+  position: relative;
+}
+.tutorial {
+  position: absolute;
+  bottom: 100px;
+  left: -90px;
+}
+.workout {
+  position: absolute;
+  top: 200px;
+  right: -50px;
+}
+.tutorial,
+.workout {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+}
+.tutorial h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.tutorial i,
+.workout h4 {
+  font-size: 30px;
+}
