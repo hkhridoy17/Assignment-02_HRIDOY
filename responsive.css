@@ -42,6 +42,11 @@
   .habits-image-content h4 {
     margin-top: 10px;
   }
+  .run {
+    flex-direction: column;
+    gap: 80px;
+    margin: 0 10px;
+  }
 }
 
 /* responsive design for medium device */

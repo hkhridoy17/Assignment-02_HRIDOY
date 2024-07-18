@@ -19,9 +19,6 @@ footer {
 .orange {
   color: #e6533c;
 }
-.grey-bg {
-  color: #222222;
-}
 .white50 {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -42,6 +39,8 @@ footer {
   cursor: pointer;
 }
 section {
+  max-width: 1040px;
+  margin: 0 auto;
   padding-top: 100px;
 }
 .section-title {
@@ -52,7 +51,7 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* nav styles */
+/* nav section */
 header {
   padding: 50px 100px 0 100px;
   background: linear-gradient(
@@ -98,7 +97,7 @@ ul li a:hover {
   cursor: pointer;
 }
 
-/* banner styles */
+/* banner section */
 .banner {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -162,7 +161,7 @@ ul li a:hover {
   font-size: 30px;
 }
 
-/* habits styles */
+/* habits section */
 .habits {
   text-align: center;
 }
@@ -194,4 +193,28 @@ ul li a:hover {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 5px;
+}
+
+/* run section */
+.run {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 18px;
+  padding: 30px;
+}
+.run-content {
+  max-width: 400px;
+}
+.run-content p {
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+.run-image {
+  max-width: 350px;
+}
+.run-image img {
+  width: 100%;
+  border-radius: 18px;
 }
