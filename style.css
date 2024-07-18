@@ -32,14 +32,24 @@ footer {
   color: rgba(239, 237, 232, 0.65);
 }
 .btn-primary {
-  padding: 15px 40px;
+  padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
   background-color: #e6533c;
   border: none;
-  border-radius: 40px;
+  border-radius: 30px;
   cursor: pointer;
+}
+section {
+  padding-top: 100px;
+}
+.section-title {
+  font-size: 48px;
+}
+.section-info {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* nav styles */
@@ -49,7 +59,8 @@ header {
     rgba(17, 17, 17, 95),
     rgba(17, 17, 17, 0.9),
     rgba(17, 17, 17, 0.95),
-    rgba(17, 17, 17, 1)
+    rgba(17, 17, 17, 1),
+    black
   );
 }
 nav {
@@ -90,10 +101,10 @@ ul li a:hover {
 /* banner styles */
 .banner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   justify-content: space-between;
   align-items: center;
-  gap: 200px;
+  gap: 250px;
 }
 .banner-content {
   display: flex;
@@ -149,4 +160,38 @@ ul li a:hover {
 .tutorial i,
 .workout h4 {
   font-size: 30px;
+}
+
+/* habits styles */
+.habits {
+  text-align: center;
+}
+.habits-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 58px;
+}
+.habits-image-content {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.habits-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.habits-image-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.habits-image-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
 }

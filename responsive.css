@@ -8,9 +8,9 @@
     font-size: 24px;
   }
   .btn-primary {
-    padding: 15px 25px;
+    padding: 10px 20px;
     font-size: 16px;
-    border-radius: 25px;
+    border-radius: 20px;
   }
   header {
     padding: 30px 20px 0 20px;
@@ -28,12 +28,26 @@
   }
   .tutorial {
     position: absolute;
-    bottom: 280px;
+    bottom: 250px;
     left: 30px;
   }
   .workout {
     position: absolute;
     top: 80px;
-    right: 0px;
+    right: -10px;
   }
+  .habits-content {
+    flex-direction: column;
+  }
+  .habits-image-content h4 {
+    margin-top: 10px;
+  }
+}
+
+/* responsive design for medium device */
+@media screen and (min-width: 576.02px) and (max-width: 992px) {
+}
+
+/* responsive design for large device */
+@media screen and (min-width: 992.02px) and (max-width: 1250px) {
 }
