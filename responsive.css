@@ -58,6 +58,12 @@
     height: 120px;
     width: 100%;
   }
+  .calculator-content {
+    padding: 50px 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
 }
 
 /* responsive design for medium device */
