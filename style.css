@@ -49,6 +49,8 @@ section {
 .section-info {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  margin-bottom: 58px;
 }
 
 /* nav section */
@@ -217,4 +219,23 @@ ul li a:hover {
 .run-image img {
   width: 100%;
   border-radius: 18px;
+}
+
+/* training section */
+.training-image-box img {
+  height: 200px;
+  width: 100%;
+}
+.training-image {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.training-image-box {
+  position: relative;
+}
+.training-image-box p {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
 }

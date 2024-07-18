@@ -47,6 +47,17 @@
     gap: 80px;
     margin: 0 10px;
   }
+  .training-content {
+    margin-left: 10px;
+  }
+  .training-image {
+    grid-template-columns: repeat(2, auto);
+    margin: 0 10px;
+  }
+  .training-image img {
+    height: 120px;
+    width: 100%;
+  }
 }
 
 /* responsive design for medium device */
