@@ -64,6 +64,10 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
+  .team-members {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px;
+  }
 }
 
 /* responsive design for medium device */
