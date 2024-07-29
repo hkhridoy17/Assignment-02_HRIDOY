@@ -243,8 +243,10 @@ header ul li a:hover {
 }
 .training-image-box p {
   position: absolute;
+  width: 115px;
+  text-align: center;
   left: 50%;
-  bottom: 5%;
+  bottom: 1%;
   transform: translate(-50%, -50%);
   background-color: #132536;
   padding: 5px 10px;
@@ -340,6 +342,8 @@ header ul li a:hover {
 /* team section */
 .team-content {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .team-members {
   max-width: 1060px;
@@ -373,6 +377,8 @@ header ul li a:hover {
 }
 .additional-content {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .additional-items {
   display: grid;
@@ -432,6 +438,7 @@ footer {
 }
 .footer-col1 p {
   font-size: 14px;
+  line-height: 24px;
 }
 .footer-col2 h3 {
   font-size: 32px;
